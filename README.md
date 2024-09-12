@@ -1,7 +1,7 @@
 # 팀 소개
 ### 📌 팀 구성
 SK Family 네트웍스 AI 2기 2조<br/>
-송문영 전유빈 정인교 정영재 김서연
+[팀장]송문영 [팀원]김서연 전유빈 정영재 정인교
 <br/><br/><br/>
 
 # 프로젝트
@@ -52,13 +52,12 @@ SK 그룹사에서 운영하는 워커힐 호텔도 리워즈 멤버십을 운�
   <img src="https://img.shields.io/badge/Visual Studio Code-008CFF?style=for-the-badge&logo=Visual Studio Code&logoColor=white">
   <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white">
   <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
-  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
 </div>
 
 <div align=left><h3>🕹️ etc </div>
 <div align="left">
-  <img src="https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white">
-  BeautifulSoup<br/>Chroma
+  <img src="https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white"><br/>
+  BeautifulSoup<t/>Chroma
 </div>
 
 <br/>
