@@ -22,15 +22,6 @@ SK 그룹사에서 운영하는 워커힐 호텔도 리워즈 멤버십을 운�
 
 
 ### 🔨 기술 스택
-Bootstrap
-Langchain
-VirtualBox
-Linux
-SQLite
-Chroma
-BeautifulSoup
-Selenium
-
 <div align=left><h3>🕹️ Frontend</div>
 <div align=left>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
@@ -43,6 +34,9 @@ Selenium
 <div aling=left>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
   <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=Django&logoColor=white">
+  <img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=Linux&logoColor=white">
+  <img src="https://img.shields.io/badge/sqlite-003B57?style=for-the-badge&logo=Sqlite&logoColor=white">
+  <img src="https://img.shields.io/badge/virtualbox-183A61?style=for-the-badge&logo=Virtualbox&logoColor=white">
 </div>
 
 <div align=left><h3>🕹️ AI Core</div>
@@ -58,7 +52,15 @@ Selenium
   <img src="https://img.shields.io/badge/Visual Studio Code-008CFF?style=for-the-badge&logo=Visual Studio Code&logoColor=white">
   <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white">
   <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
+  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
 </div>
+
+<div align=left><h3>🕹️ etc </div>
+<div align="left">
+  <img src="https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white">
+  BeautifulSoup<br/>Chroma
+</div>
+
 <br/>
 
 ### ✅ 요구사항 명세서
