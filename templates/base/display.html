@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>워커힐 정책</title>
+    <style>
+        /* 전체 페이지 스타일 */
+        @font-face {
+            font-family: 'Freesentation-6SemiBold';
+            src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-6SemiBold.woff2') format('woff2');
+            font-weight: 600;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Freesentation-9Black';
+            src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+            font-weight: 900;
+            font-style: normal;
+        }
+
+        body {
+            font-family: 'Freesentation-6SemiBold', 'Helvetica', Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-family: 'Freesentation-9Black';
+        }
+
+        /* 본문 전체를 감싸는 컨테이너 */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+        }
+
+        /* 장 제목 스타일 (제1장, 제2장 등) */
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            margin-top: 70px;
+            font-weight: bolder;
+            color: #5c4031;
+            padding-bottom: 5px;
+        }
+
+        /* 조 제목 스타일 (제1조, 제2조 등) */
+        h2 {
+            font-size: 1.5em;
+            margin-top: 50px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #5c4031;
+            border-bottom: 2px solid #5c4031;
+            padding-bottom: 5px;
+        }
+
+        /* 조항 내 본문 스타일 */
+        p {
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            text-align: justify;
+            line-height: 1.8;
+        }
+
+        /* 본문에서 중요한 내용 강조 */
+        strong {
+            font-weight: bold;
+            color: #5c4031;
+        }
+
+        /* 각 조항 사이 구분선 */
+        .divider {
+            border-top: 1px solid #ddd;
+            margin: 20px 0;
+        }
+
+        /* 각 조 항목 스타일 */
+        .list-item {
+            padding: 10px;
+            background-color: #f1f1f1;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        /* 가독성을 높이기 위한 추가 여백 */
+        .content {
+            padding: 20px;
+            line-height: 1.8;
+        }
+
+        /* 뒤로 가기 버튼 스타일 */
+        .btn {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background-color: #5c4031;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #41322a!important;
+            border-color: #41322a!important;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 상단에 뒤로 가기 버튼 추가 -->
+        <a class="btn" onclick="history.back()" href="#">뒤로 가기</a>
+
+        <h1 style="color: #5c4031; text-align: center;">워커힐 리워즈 멤버십 약관</h1>
+        <div class="content">
+            {% for text in crawled_texts %}
+                <!-- 각 조항의 제목과 본문을 구분하는 방법 -->
+                <p id="raw-text">{{ text.content }}</p>
+            {% endfor %}
+        </div>
+    </div>
+
+    <script>
+        window.onload = function() {
+            const rawText = document.getElementById('raw-text');
+            let formattedText = rawText.innerHTML
+                // "제X장" 부분을 h1 태그로 변경
+                .replace(/(제 [0-9]+장)\s*([^\n]+)/g, '<h1>$1 $2</h1>')
+                // "제X조" 부분을 h2 태그로 변경하고, 다음 줄의 내용을 본문으로 처리
+                .replace(/(\n+제[0-9]+조)\s*([^\n]+)/g, '<h2>$1 $2</h2>')
+
+            rawText.innerHTML = formattedText;
+        };
+    </script>
+</body>
+</html>
