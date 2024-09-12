@@ -1,7 +1,7 @@
 # 팀 소개
 ### 📌 팀 구성
 SK Family 네트웍스 AI 2기 2조<br/>
-[팀장]송문영 [팀원]김서연 전유빈 정영재 정인교
+<strong>[팀장]</strong>송문영 <strong>[팀원]</strong>김서연 전유빈 정영재 정인교
 <br/><br/><br/>
 
 # 프로젝트
@@ -56,8 +56,9 @@ SK 그룹사에서 운영하는 워커힐 호텔도 리워즈 멤버십을 운�
 
 <div align=left><h3>🕹️ etc </div>
 <div align="left">
-  <img src="https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white"><br/>
-  BeautifulSoup<t/>Chroma
+  <img src="https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white">
+  ![img](https://github.com/user-attachments/assets/1541eb8f-4a97-4c0a-b403-2e9f55ea4806)
+  ![chroma](https://github.com/user-attachments/assets/1ff51f31-a083-4662-b05f-e1a144119dd1)
 </div>
 
 <br/>
