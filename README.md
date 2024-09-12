@@ -57,10 +57,9 @@ SK 그룹사에서 운영하는 워커힐 호텔도 리워즈 멤버십을 운�
 <div align=left><h3>🕹️ etc </div>
 <div align="left">
   <img src="https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white">
+  ![img](https://github.com/user-attachments/assets/3909106e-4cb6-4960-b06e-7557cc561fde)
+  ![chroma](https://github.com/user-attachments/assets/ff6a1794-2fcc-4a1a-96a7-2302433de56d)
 </div>
-
-![img](https://github.com/user-attachments/assets/3909106e-4cb6-4960-b06e-7557cc561fde)
-![chroma](https://github.com/user-attachments/assets/ff6a1794-2fcc-4a1a-96a7-2302433de56d)
 <br/>
 
 ### ✅ 요구사항 명세서
