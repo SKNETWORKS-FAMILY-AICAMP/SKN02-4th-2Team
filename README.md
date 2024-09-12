@@ -57,10 +57,9 @@ SK 그룹사에서 운영하는 워커힐 호텔도 리워즈 멤버십을 운�
 <div align=left><h3>🕹️ etc </div>
 <div align="left">
   <img src="https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white">
+  ![img](https://github.com/user-attachments/assets/9764ee42-9fa6-45cc-9b39-80775c013b5c) 
+  ![chroma](https://github.com/user-attachments/assets/aa05662d-e83f-4966-b0d7-2c7beea38573)
 </div>
-![img](https://github.com/user-attachments/assets/fdfe362d-a230-4f89-895d-f3ee78ff6fad)
-![chroma](https://github.com/user-attachments/assets/a9af984d-7332-44b8-aba1-92293b602d4b)
-<br/>
 
 ### ✅ 요구사항 명세서
 1. 워커힐 리워즈 멤버십의 내용을 간략하고 정확하게 전달한다.
